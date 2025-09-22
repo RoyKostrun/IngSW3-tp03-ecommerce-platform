@@ -1,4 +1,4 @@
- // E-commerce Platform - Frontend Logic
+// E-commerce Platform - Frontend Logic
 
 class ECommercePlatform {
     constructor() {
@@ -63,20 +63,17 @@ class ECommercePlatform {
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
         
-        if (!email || !password) {
-            alert('Por favor, completa todos los campos');
+        // Usar las nuevas funciones de validación que ahora son métodos de la clase
+        if (!this.validateEmail(email) || !this.validatePassword(password)) {
+            alert('Credenciales inválidas. Email debe ser válido y la contraseña debe tener al menos 8 caracteres, una mayúscula y un número.');
             return;
         }
         
         // Simulación de autenticación
-        if (email.includes('@') && password.length >= 6) {
-            this.currentUser = { email: email, name: email.split('@')[0] };
-            alert(`Bienvenido ${this.currentUser.name}!`);
-            document.getElementById('email').value = '';
-            document.getElementById('password').value = '';
-        } else {
-            alert('Credenciales inválidas. Email debe contener @ y contraseña mínimo 6 caracteres.');
-        }
+        this.currentUser = { email: email, name: email.split('@')[0] };
+        alert(`Bienvenido ${this.currentUser.name}!`);
+        document.getElementById('email').value = '';
+        document.getElementById('password').value = '';
     }
 
     addToCart(productId) {
@@ -160,7 +157,17 @@ class ECommercePlatform {
             if (e.key === 'Enter') this.login();
         });
     }
+
+    // Mejoras en validación de autenticación
+    validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    validatePassword(password) {
+        return password.length >= 8 && /[A-Z]/.test(password) && /[0-9]/.test(password);
+    }
 }
 
 // Inicializar aplicación
-const app = new ECommercePlatform(); 
+const app = new ECommercePlatform();
