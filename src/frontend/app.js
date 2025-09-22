@@ -167,6 +167,11 @@ class ECommercePlatform {
     validatePassword(password) {
         return password.length >= 8 && /[A-Z]/.test(password) && /[0-9]/.test(password);
     }
+    // Agregar función de filtrado
+    filterProducts(category) {
+        if (!category) return this.products;
+        return this.products.filter(p => p.category === category);
+    }
 }
 
 // Inicializar aplicación
