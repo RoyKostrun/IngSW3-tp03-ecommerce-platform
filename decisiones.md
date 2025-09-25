@@ -485,34 +485,6 @@ Este trabajo práctico logró demostrar exitosamente el uso integral de Azure De
 4. **Desarrollo de aplicación funcional** con trazabilidad completa
 5. **Documentación profesional** de decisiones y procesos
 
-### Conocimientos Adquiridos
-
-**Azure DevOps como plataforma integral:**
-- Comprensión profunda de la interconexión entre Boards, Repos, Pipelines
-- Experiencia práctica con procesos ágiles en herramienta empresarial
-- Configuración avanzada de políticas y permisos organizacionales
-
-**Metodología Agile en práctica:**
-- Aplicación real de Epic → User Story → Task hierarchy
-- Sprint planning con criterios de negocio reales
-- Trazabilidad completa desde requerimiento hasta código
-
-**DevOps workflow completo:**
-- Feature branch strategy con code review process
-- Políticas de calidad automatizadas
-- Integración código-work items para auditabilidad
-
-### Valor Profesional del Aprendizaje
-
-**Preparación para entorno laboral:**
-Este TP proporcionó experiencia directa con herramientas y procesos estándar en la industria del software, incluyendo configuración organizacional, gestión de proyectos ágiles, y control de calidad de código.
-
-**Resolución de problemas reales:**
-Los desafíos encontrados (sincronización de repositorios, configuración de políticas, gestión de equipos) son representativos de situaciones que se enfrentan en proyectos profesionales.
-
-**Documentación y comunicación técnica:**
-La elaboración de esta documentación desarrolló habilidades críticas de justificación de decisiones técnicas y comunicación de procesos complejos.
-
 
 **Documento elaborado por:** Roy Kostrun  
 **Fecha:** Septiembre 2025  

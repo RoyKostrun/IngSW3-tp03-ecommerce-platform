@@ -245,20 +245,12 @@ Todos los commits incluyen:
 - **Testing:** Suite de tests automatizados
 - **CI/CD:** Pipeline completo de integración continua
 
-## 📞 Soporte y Contacto
+## 📞 Contacto
 
 ### Autor
 **Roy Kostrun** - TP03 Ingeniería de Software 3
 
 ### Repositorio
 - **GitHub:** https://github.com/RoyKostrun/IngSW3-tp03-ecommerce-platform
-- **Azure DevOps:** [URL del proyecto]
+- **Azure DevOps:** [https://dev.azure.com/rbkostrun/TP03]
 
-### Documentación Adicional
-- Ver `decisiones.md` para justificaciones técnicas detalladas
-- Consultar Azure DevOps para work items y planificación
-- Revisar commits para historial de desarrollo completo
-
----
-
-**Desarrollado como demostración del uso integral de Azure DevOps para gestión ágil de proyectos de software**
